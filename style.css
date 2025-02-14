@@ -1,0 +1,17 @@
+#selected {
+  color: purple;
+}
+#selected:hover {
+  color: yellow;
+}
+.nav-link:hover {
+  color: lightblue;
+}
+.nav-link {
+  color: green;
+}
+body {
+  background-image: url("D\ of\ I.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
