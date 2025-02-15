@@ -14,4 +14,38 @@ body {
   background-image: url("D\ of\ I.webp");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.8;
+}
+h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 20px;
+}
+.quotes {
+  color: rgb(174, 0, 255);
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 20px;
+}
+
+.video1 {
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
+.earlifeinfo {
+  color: rgb(174, 0, 255);
+  text-align: center;
+  font-weight: bolder;
+  margin: auto;
+  padding-top: 20px;
+}
+.presidencyinfo {
+  color: rgb(174, 0, 255);
+  text-align: center;
+  font-weight: bolder;
+  margin: auto;
+  padding-top: 20px;
 }
