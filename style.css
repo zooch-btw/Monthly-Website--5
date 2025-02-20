@@ -15,7 +15,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  opacity: 0.8;
+  opacity: 1;
 }
 h1 {
   color: whitesmoke;
@@ -23,16 +23,17 @@ h1 {
   font-weight: bolder;
   padding-top: 20px;
 }
-.quotes {
+#quotes {
   color: rgb(174, 0, 255);
   text-align: center;
   font-weight: bolder;
   padding-top: 20px;
 }
 
-.video1 {
+img,
+iframe {
   display: block;
-  margin: auto;
+  margin-right: auto;
   padding-top: 20px;
 }
 .earlifeinfo {
@@ -48,4 +49,30 @@ h1 {
   font-weight: bolder;
   margin: auto;
   padding-top: 20px;
+  list-style-type: none;
+}
+li {
+  list-style-type: none;
+}
+div[id^="prisrcs"] {
+  .col-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .col-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }

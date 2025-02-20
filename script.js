@@ -9,7 +9,7 @@ var quotesArray = [
   "Nothing can stop the man with the right mental attitude from achieving his goal; nothing on earth can help the man with the wrong mental attitude. — Thomas Jefferson",
 ];
 var randomNumber = Math.floor(Math.random() * quotesArray.length);
-document.getElementById("press-quote").textContent =
+document.getElementById("quotes").textContent =
   "“" +
   quotesArray[randomNumber].split("—")[0] +
   "” — " +
